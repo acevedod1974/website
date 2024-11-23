@@ -69,7 +69,11 @@ const Home = () => {
           Feel free to reach out to me via email at{" "}
           <a href="mailto:dacevedo@unexpo.edu.ve">dacevedo@unexpo.edu.ve</a> or
           connect with me on{" "}
-          <a href="https://www.linkedin.com/in/acevedod1974/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/acevedod1974/"
+            target="_blank"
+            rel="noreferrer"
+          >
             LinkedIn
           </a>
           .
