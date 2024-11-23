@@ -9,6 +9,12 @@ const GlobalStyles = createGlobalStyle`
     background-color: #e9ecef;
     color: #333;
   }
+
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
 `;
 
 export default GlobalStyles;

@@ -8,6 +8,10 @@ const Nav = styled.nav`
   padding: 10px;
   text-align: center;
   border-radius: 0 0 10px 10px;
+
+  @media (max-width: 768px) {
+    padding: 5px;
+  }
 `;
 
 const NavLink = styled(Link)`
@@ -20,6 +24,11 @@ const NavLink = styled(Link)`
 
   &:hover {
     background: #003f7f;
+  }
+
+  @media (max-width: 768px) {
+    margin: 0 5px;
+    padding: 5px 10px;
   }
 `;
 
